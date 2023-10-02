@@ -19,6 +19,7 @@ header{
     display: flex;
     padding-top: 8px;
     position: fixed;
+    z-index: 100;
 }
 
 
@@ -1164,5 +1165,50 @@ padding: 12px;
 
     .comentario-publicacion input{
         width: 200px;
+    }
+    .none-350{
+        display: none;
+    }
+    .opciones-estado{
+        justify-content: space-around;
+    }
+}
+@media (max-width:400px) {
+    .input-estado input{
+        width: 75% !important;
+    }
+    #mp{
+        margin-left: 4%;
+        margin-bottom: 15px;
+    }
+    #mp-2{
+        margin-left: 2%;
+        margin-bottom: 15px;
+    }
+    #lc{
+        gap: 28% !important;
+    }
+    #inp-350{
+        width: 80%;
+    }
+    #img-p-2{
+        margin-right: 10%;
+    }
+    #cm{
+        margin-left: 55%;
+    }
+    .container-media5{
+        width: 94%;
+        height: 413px;
+    }
+     .reels-cabezera{
+        display: flex; 
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        align-items: center;
+        color:#a9a9a9;
+        gap:5% !important;
     }
 }
